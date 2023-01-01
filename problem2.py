@@ -31,6 +31,6 @@ for i in range(len(a)):
            list3["classTitle"] = "number"
 
 
-with open("01.json",'w') as f:
+with open("01.json",'w') as f: #the combined file name is 01.json
   for i in range(len(a)):
     json.dump(a[i],f,indent=4)
