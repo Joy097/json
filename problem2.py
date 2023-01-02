@@ -32,5 +32,4 @@ for i in range(len(a)):
 
 
 with open("01.json",'w') as f: #the combined file name is 01.json
-  for i in range(len(a)):
-    json.dump(a[i],f,indent=4)
+  json.dump(a,f,indent=4)
