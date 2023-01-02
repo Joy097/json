@@ -41,11 +41,9 @@ final["annotation_type"] = "image"
 final["annotation_objects"] = k
 final["annotation_attributes"] = b
 
-print(final)
-
   
 
-with open("formatted_pos_0.png.json",'w') as f:  # the combined file is 01.json
+with open("formatted_pos_0.png.json",'w') as f: 
   json.dump(final,f,indent=4)
 
     
